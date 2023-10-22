@@ -5,9 +5,18 @@
     NavLi,
     NavUl,
     NavHamburger,
+    Dropdown,
+    DropdownItem,
+    DropdownDivider,
+    Button,
   } from "flowbite-svelte";
 
-  let themeState = false;
+  import { ChevronDownOutline } from "flowbite-svelte-icons";
+  import { page } from "$app/stores";
+
+  $: activeUrl = $page.url.pathname;
+
+  let themeState = true;
   function toggleTheme() {
     if (themeState) {
       document.documentElement.classList.add("dark");
@@ -21,18 +30,12 @@
   }
 </script>
 
-<header>
-  <script>
-    import {
-      Navbar,
-      NavBrand,
-      NavLi,
-      NavUl,
-      NavHamburger,
-    } from "flowbite-svelte";
-  </script>
-
-  <Navbar let:hidden let:toggle class="bg-slate-200">
+<header class="relative">
+  <Navbar
+    let:hidden
+    let:toggle
+    class="px-2 bg-slate-200 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 border-b"
+  >
     <NavBrand href="/">
       <img src="favicon.png" class="mr-3 h-6 sm:h-9" alt="Office Logo" />
       <span
@@ -42,21 +45,36 @@
       </span>
     </NavBrand>
     <NavHamburger on:click={toggle} />
-    <NavUl {hidden}>
+    <NavUl {hidden} {activeUrl} class="">
       <NavLi href="/" active={true}>Home</NavLi>
       <NavLi href="/about">About</NavLi>
-      <NavLi href="/services">Services</NavLi>
       <NavLi href="/pricing">Pricing</NavLi>
-      <NavLi href="/contact">Contact</NavLi>
-      <button
-        id="theme-toggle"
-        type="button"
-        on:click={toggleTheme}
-        class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none
-    focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm"
-      >
-        <img src="favicon.png" alt="" class="h-6" />
-      </button>
+      <NavLi class="cursor-pointer">
+        Products <ChevronDownOutline
+          class="w-3 h-3 ml-2 text-primary-800 dark:text-white inline"
+        />
+      </NavLi>
+      <Dropdown class="w-44 z-20 text-center">
+        <DropdownItem href="/documents">Documents</DropdownItem>
+        <DropdownItem href="/">Sheets</DropdownItem>
+        <DropdownItem href="/">Slides</DropdownItem>
+      </Dropdown>
+      <NavLi href="/login">Log in</NavLi>
+      <div class="flex">
+        <Button
+          on:click={toggleTheme}
+          color="dark"
+          size="sm"
+          outline
+          class="text-lg max-w-min py-1 border-0"
+        >
+          {#if themeState}
+            <i class="fa-regular fa-lightbulb" />
+          {:else}
+            <i class="fa-solid fa-lightbulb" />
+          {/if}
+        </Button>
+      </div>
     </NavUl>
   </Navbar>
 </header>

@@ -2,25 +2,13 @@
   import "../app.css";
   import Footer from "./footer.svelte";
   import Header from "./header.svelte";
-
-  // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-  const toggler = () => {
-    if (
-      localStorage.getItem("color-theme") === "dark" ||
-      (!("color-theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-    ) {
-      document.documentElement.classList.add("dark");
-      console.log("Dark theme");
-    } else {
-      document.documentElement.classList.remove("dark");
-      console.log("Light theme");
-    }
-  };
 </script>
 
-<Header theme_toggler />
-<main>
+<Header />
+<main
+  class="bg-white dark:bg-slate-800 dark:text-white py-5 px-2 lg:px-20 md:px-10 sm:px-5"
+>
+  <div class="py-10" />
   <slot />
 </main>
 <Footer />
