@@ -7,7 +7,6 @@
     NavHamburger,
     Dropdown,
     DropdownItem,
-    DropdownDivider,
     Button,
   } from "flowbite-svelte";
 

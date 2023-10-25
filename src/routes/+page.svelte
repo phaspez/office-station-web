@@ -1,6 +1,14 @@
 <script>
   import { Button } from "flowbite-svelte";
+  import Helloworld from "./helloworld.svelte";
 </script>
+
+<Helloworld />
+
+<!-- ------------------------------------------------------ -->
+<section>
+  <div class="filler" />
+</section>
 
 <p class="headline">Elevate Your Productivity with OfficeStation.</p>
 <p class="headline-details">
