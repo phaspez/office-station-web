@@ -11,7 +11,6 @@ h2 {
 }
 
 @layer components {
-
     .headline {
         @apply text-3xl font-light md:text-4xl lg:text-5xl py-3;
     }
@@ -22,4 +21,49 @@ h2 {
     .box-info {
         @apply bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md shadow-md p-2 text-white;
     }
+
+    .box-info-blue {
+        @apply bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md shadow-md p-2 text-white;
+    }
+
+    .box-info-green {
+        @apply bg-gradient-to-r from-lime-500 to-green-500 rounded-md shadow-md p-2 text-white;
+    }
+
+    .box-info-orange {
+        @apply bg-gradient-to-r from-amber-400 to-orange-500 rounded-md shadow-md p-2 text-white;
+    }
+
+    .box-info2 {
+        @apply bg-gradient-to-r
+        from-pink-500 via-red-500 to-yellow-500
+        background-animate;
+    }
+
+    .background-light {
+        @apply bg-gradient-to-r from-transparent via-red-200 to-orange-100
+        background-animate;
+    }
+
+    .background-dark {
+        @apply bg-gradient-to-r from-slate-800 via-blue-900 to-violet-950
+        background-animate;
+    }
+
+    .background-animate {
+        background-size: 200%;
+        -webkit-animation: AnimationSmooth 12s ease infinite;
+        -moz-animation: AnimationSmooth 12s ease infinite;
+        animation: AnimationSmooth 12s ease infinite;
+      }
+    
+      @keyframes AnimationSmooth {
+        0%,
+        100% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+      }
 }
