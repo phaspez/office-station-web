@@ -11,7 +11,7 @@
       // ...
       isLoading.set(false);
     }
-    </script>
+</script>
     
     <main>
       <h1>Đăng nhập</h1>
