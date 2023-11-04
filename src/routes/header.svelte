@@ -7,7 +7,6 @@
     NavHamburger,
     Dropdown,
     DropdownItem,
-    DropdownDivider,
     Button,
   } from "flowbite-svelte";
 
@@ -30,7 +29,7 @@
   }
 </script>
 
-<header class="relative">
+<header class="relative z-50">
   <Navbar
     let:hidden
     let:toggle
