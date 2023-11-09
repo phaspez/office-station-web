@@ -2,6 +2,7 @@
   import "../app.css";
   import Footer from "./footer.svelte";
   import Header from "./header.svelte";
+  import "./i18n.js";
 </script>
 
 <Header />
@@ -12,6 +13,3 @@
   <slot />
 </main>
 <Footer />
-
-<style>
-</style>

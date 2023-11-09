@@ -1,0 +1,18 @@
+{
+  "homepage": "Home",
+  "aboutpage": "About",
+  "pricingpage": "Pricing",
+  "loginpage": "Login",
+  "homepage.headline": "Elevate Your Productivity with OfficeStation.",
+  "homepage.headline.details": "OfficeStation is the ultimate office suite for your productivity needs. Whether you need to create documents, spreadsheets, presentations, or anything else, OfficeStation has you covered.",
+  "homepage.section1": "Why choose OfficeStation?",
+  "homepage.section1.sub": "Lightweight Office Apps",
+  "homepage.section1.sub.details": "OfficeStation is a lightweight all-in-one office suite that can help you handle daily office tasks with ease.",
+  "homepage.section1.sub2": "Online Access to your files",
+  "homepage.section1.sub2.details": "All your files can be synced with ease for collaborators to review and modify, using your favorite cloud platforms such as Google Drive, Dropbox, iCloud, or our intergrated cloud solution, OfficeStation Cloud.",
+  "homepage.section1.sub3": "Microsoft Office Complatible",
+  "homepage.section1.sub3.details": "When working with many collaboarators, your files will still feel the same. OfficeStation makes it convinent for you and your collaborators to import and export files from many major formats.",
+  "homepage.section1.sub4": "Take your Office with you",
+  "homepage.section1.sub4.details": "Wherever you are, you can get you work done with our mobile app companion. Available for free on major platforms.",
+  "productpage": "Products"
+}

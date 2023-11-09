@@ -27,6 +27,7 @@
 		"flowbite-svelte": "^0.44.18",
 		"flowbite-svelte-icons": "^0.4.4",
 		"svelte-i18n": "^4.0.0",
+		"svelte-intersection-observer": "^0.10.1",
 		"tailwind-merge": "^1.14.0"
 	}
 }
