@@ -14,5 +14,21 @@
   "homepage.section1.sub3.details": "Khi làm việc với nhiều cộng tác viên, các tệp của bạn vẫn sẽ có cảm giác như vậy. \nOfficeStation giúp bạn và cộng tác viên của bạn thuận tiện nhập và xuất tệp từ nhiều định dạng chính.",
   "homepage.section1.sub4": "Mang theo văn phòng của bạn",
   "homepage.section1.sub4.details": "Dù bạn ở đâu, bạn đều có thể hoàn thành công việc với ứng dụng di động đồng hành của chúng tôi. \nCó sẵn miễn phí trên các nền tảng lớn.",
-  "productpage": "Sản phẩm"
+  "productpage": "Sản phẩm",
+  "Documents": "Tài liệu",
+  "documents.about": "Tạo những giấy tuyệt đẹp với hình ảnh phong phú.",
+  "Sheets": "Trang tính",
+  "sheets.about": "Biến dữ liệu sổ làm việc và bảng tính của bạn thành thông tin có chiều sâu, sắp xếp dữ liệu, dự đoán xu hướng, và nhiều hơn thế.",
+  "Slides": "Trang trình bày",
+  "slides.about": "Tạo một bài thuyết trình hấp dẫn và thuyết phục với những ý tưởng và trí tưởng tượng của bạn.",
+  "OfficeStation.Cloud": "OfficeStation Cloud",
+  "OfficeStation.Cloud.about": "Với nền tảng OfficeStation Cloud của chúng tôi, bạn có thể truy cập các tệp của mình trên mọi thiết bị.\n\n\nĐăng ký OfficeStation Cloud, bạn sẽ nhận được 5 GB dung lượng lưu trữ đám mây miễn phí.",
+  "OfficeStation.Mobile": "OfficeStation Mobile",
+  "officestation.mobile.info": "Bạn có thể xem, chỉnh sửa và chia sẻ tệp của mình từ thiết bị di động.\n\n<br /><br />\n\nCó sẵn trên Android và iOS.",
+  "homepage.section2": "Có gì trong OfficeStation?",
+  "Sheets.details": "<li>Định dạng ô</li>\n\n<li>Công thức Excel tương thích</li>\n\n<li>Trình hiển thị biểu đồ</li>\n\n<li>Chuyển đổi .xlsx sang .pdf</li>\n\n<li>Mẫu trực tuyến</li>",
+  "Documents.details": "<li>Xem/Chỉnh sửa tài liệu</li>\n            \n<li>Trình kiểm tra chính tả</li>\n            \n<li>Tách/Hợp nhất tài liệu</li>\n            \n<li>Chuyển đổi .docs sang .pdf</li>\n            \n<li>Mẫu trực tuyến</li>",
+  "Slides.details": "<li>Công cụ trình bày</li>\n            \n<li>Trình ghi màn hình</li>\n            \n<li>Đồng biên tập, ghi chú thuyết trình</li>\n            \n<li>Chuyển đổi trang trình bày sang .pdf</li>\n            \n<li>Mẫu trực tuyến</li>",
+  "getstarted": "Bắt đầu ngay!",
+  "homepage.section3": "Sẵn sàng để hoàn thành công việc?"
 }

@@ -58,9 +58,9 @@
         />
       </NavLi>
       <Dropdown class="w-44 z-20 text-center">
-        <DropdownItem href="/documents">Documents</DropdownItem>
-        <DropdownItem href="/">Sheets</DropdownItem>
-        <DropdownItem href="/">Slides</DropdownItem>
+        <DropdownItem href="/documents">{$_("Documents")}</DropdownItem>
+        <DropdownItem href="/">{$_("Sheets")}</DropdownItem>
+        <DropdownItem href="/">{$_("Slides")}</DropdownItem>
       </Dropdown>
       <NavLi href="/login">Log in</NavLi>
       <div class="flex">

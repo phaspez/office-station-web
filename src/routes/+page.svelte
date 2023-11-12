@@ -18,7 +18,7 @@
 <p class="headline-details pt-0 lg:pr-96">
   {$_("homepage.headline.details")}
 </p>
-<Button>Get started!</Button>
+<Button>{$_("getstarted")}</Button>
 <div class="py-7" />
 
 <h1 class="text-4xl font-semibold">{$_("homepage.section1")}</h1>
@@ -39,17 +39,16 @@
         <div class="subsection">
           <p>{$_("homepage.section1.sub.details")}</p>
           <Alert color="none" class="box-info-blue drop-shadow-md m-1">
-            <h2>Documents</h2>
-            Create stunning paper with rich visuals.
+            <h2>{$_("Documents")}</h2>
+            {$_("documents.about")}
           </Alert>
           <Alert color="none" class="box-info-green drop-shadow-md m-1">
-            <h2>Sheets</h2>
-            Turn your workbooks and spreadsheets data into insights, organize your
-            data, predicting trends, and more.
+            <h2>{$_("Sheets")}</h2>
+            {$_("sheets.about")}
           </Alert>
           <Alert color="none" class="box-info-orange drop-shadow-md m-1">
-            <h2>Slides</h2>
-            Make a captivating presentation with your imaginations.
+            <h2>{$_("Slides")}</h2>
+            {$_("slides.about")}
           </Alert>
         </div>
       </div>
@@ -62,12 +61,8 @@
         <div class="subsection">
           <p>{$_("homepage.section1.sub2.details")}</p>
           <Alert color="none" class="box-info-blue drop-shadow-md m-1">
-            <h2>OfficeStation Cloud</h2>
-            With our OfficeStation Cloud platform, you can access your files on any
-            devices.
-            <br />
-            Signing up for OfficeStation Cloud, you will receive free 5 GB of cloud
-            storages.
+            <h2>{$_("OfficeStation.Cloud")}</h2>
+            {$_("OfficeStation.Cloud.about")}
           </Alert>
         </div>
         <div class="subsection">
@@ -102,9 +97,8 @@
         <div class="subsection">
           <p>{$_("homepage.section1.sub3.details")}</p>
           <Alert color="none" class="box-info-green drop-shadow-md m-1">
-            <h2>Sheets</h2>
-            Turn your workbooks and spreadsheets data into insights, organize your
-            data, predicting trends, and more.
+            <h2>{$_("Sheets")}</h2>
+            {$_("sheets.about")}
           </Alert>
         </div>
       </div>
@@ -119,10 +113,8 @@
             {$_("homepage.section1.sub4.details")}
           </p>
           <Alert color="none" class="box-info-orange drop-shadow-md m-1">
-            <h2>OfficeStation Mobile</h2>
-            You can view, edit, and share your files from your mobile devices.
-            <br /><br />
-            Available on Android and iOS.
+            <h2>{$_("OfficeStation.Mobile")}</h2>
+            {$_("officestation.mobile.info")}
           </Alert>
         </div>
         <div class="subsection">
@@ -141,43 +133,33 @@
   </AnimOnVisible>
 </section>
 
-<h1 class="text-4xl font-semibold">What's in Store?</h1>
+<h1 class="text-4xl font-semibold">{$_("homepage.section2")}</h1>
 <AnimOnVisible>
   <section>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       <div>
         <Alert color="none" class="box-info-blue drop-shadow-md m-1">
-          <h2>Documents</h2>
+          <h2>{$_("Documents")}</h2>
           <ul class="list">
-            <li>View/Edit documents</li>
-            <li>Spell checker</li>
-            <li>Split/Merge documents</li>
-            <li>Convert .docs to .pdf</li>
-            <li>Online templates</li>
+            {@html $_("Documents.details")}
           </ul>
         </Alert>
       </div>
       <div>
         <Alert color="none" class="box-info-green drop-shadow-md m-1">
-          <h2>Sheets</h2>
-          <ul class="list">
-            <li>Format cells</li>
-            <li>Excel formulas complatible</li>
-            <li>Charts visualizers</li>
-            <li>Convert .xlsx to .pdf</li>
-            <li>Online templates</li>
-          </ul>
+          <h2>{$_("Sheets")}</h2>
+          <div class="i18n" data-i18n="[html]content.body">
+            <ul class="list">
+              {@html $_("Sheets.details")}
+            </ul>
+          </div>
         </Alert>
       </div>
       <div>
         <Alert color="none" class="box-info-orange drop-shadow-md m-1">
-          <h2>Slides</h2>
+          <h2>{$_("Slides")}</h2>
           <ul class="list">
-            <li>Presentation tools</li>
-            <li>Screen recorder</li>
-            <li>Co-editing, Presentation notes</li>
-            <li>Convert slides to .pdf</li>
-            <li>Online templates</li>
+            {@html $_("Slides.details")}
           </ul>
         </Alert>
       </div>
@@ -186,11 +168,12 @@
 </AnimOnVisible>
 
 <div>
-  <h1 class="text-4xl font-semibold py-3">Ready to Get work done?</h1>
-  <Button>Get started!</Button>
+  <h1 class="text-4xl font-semibold py-3">{$_("homepage.section3")}</h1>
+  <Button>{$_("getstarted")}</Button>
   <div class="py-7" />
 </div>
 
+<!--
 <style lang="postcss">
   .subsection {
     @apply my-5 py-5 px-1 min-h-full;
@@ -203,4 +186,4 @@
   section p {
     @apply py-3;
   }
-</style>
+</style> -->

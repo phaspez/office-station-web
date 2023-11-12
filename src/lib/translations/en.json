@@ -14,5 +14,21 @@
   "homepage.section1.sub3.details": "When working with many collaboarators, your files will still feel the same. OfficeStation makes it convinent for you and your collaborators to import and export files from many major formats.",
   "homepage.section1.sub4": "Take your Office with you",
   "homepage.section1.sub4.details": "Wherever you are, you can get you work done with our mobile app companion. Available for free on major platforms.",
-  "productpage": "Products"
+  "productpage": "Products",
+  "Documents": "Documents",
+  "documents.about": "Create stunning paper with rich visuals.",
+  "Sheets": "Sheets",
+  "sheets.about": "Turn your workbooks and spreadsheets data into insights, organize your data, predicting trends, and more.",
+  "Slides": "Slides",
+  "slides.about": "Make a captivating presentation with your imaginations.",
+  "OfficeStation.Cloud": "OfficeStation Cloud",
+  "OfficeStation.Cloud.about": "With our OfficeStation Cloud platform, you can access your files on any devices.\n\nSigning up for OfficeStation Cloud, you will receive free 5 GB of cloud storages.",
+  "OfficeStation.Mobile": "OfficeStation Mobile",
+  "officestation.mobile.info": "You can view, edit, and share your files from your mobile devices.\n<br /><br />\nAvailable on Android and iOS.",
+  "homepage.section2": "What's in Store?",
+  "Sheets.details": "<li>Format cells</li>\n<li>Excel formulas complatible</li>\n<li>Charts visualizers</li>\n<li>Convert .xlsx to .pdf</li>\n<li>Online templates</li>",
+  "Documents.details": "<li>View/Edit documents</li>\n<li>Spell checker</li>\n<li>Split/Merge documents</li>\n<li>Convert .docs to .pdf</li>\n<li>Online templates</li>",
+  "Slides.details": "<li>Presentation tools</li>\n<li>Screen recorder</li>\n<li>Co-editing, Presentation notes</li>\n<li>Convert slides to .pdf</li>\n<li>Online templates</li>",
+  "getstarted": "Get started!",
+  "homepage.section3": "Ready to Get work done?"
 }
