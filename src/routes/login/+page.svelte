@@ -14,7 +14,7 @@
         <Input
           type="email"
           name="email"
-          placeholder="name@company.com"
+          placeholder="{$_("hold_email")}"
           required
         />
       </Label>
@@ -34,7 +34,7 @@
       <Button type="submit" class="w-full">Login to your account</Button>
       <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
         Not registered? <a
-          href="/"
+          href="/login/signup"
           class="text-primary-700 hover:underline dark:text-primary-500"
         >
           Create account

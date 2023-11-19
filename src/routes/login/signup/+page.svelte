@@ -1,19 +1,20 @@
 <script>
   import { Card, Button, Label, Input, Checkbox } from "flowbite-svelte";
+  import { _ } from "svelte-i18n";
 </script>
 
-<div class="flex items-center justify-items-center">
+<div class="flex items-center justify-center pt-25">
   <Card class="w-full max-w-md">
     <form class="flex flex-col space-y-6" action="/">
       <h3 class="text-xl font-medium text-gray-900 dark:text-white">
-        Sign up
+        {$_("Sign_up")}
       </h3>
       <Label class="space-y-2">
         <span>Email</span>
         <Input
           type="email"
           name="email"
-          placeholder="name@company.com"
+          placeholder="{$_("hold_email")}"
           required
         />
       </Label>
@@ -33,7 +34,7 @@
       <Button type="submit" class="w-full">Login to your account</Button>
       <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
         Not registered? <a
-          href="/"
+          href=".\login\signup\+page.svelte"
           class="text-primary-700 hover:underline dark:text-primary-500"
         >
           Create account

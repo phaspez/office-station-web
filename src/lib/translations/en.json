@@ -61,5 +61,8 @@
   "appfeature.enterprise.2": "200 GB OfficeStation Cloud per User",
   "appfeature.enterprise.3": "1 TB of OfficeStation Cloud for your team",
   "appfeature.enterprise.4": "Priority Support",
-  "documentpage.headline": "Documents is a word editor to help you create, edit, save and share documents with ease."
+  "documentpage.headline": "Documents is a word editor to help you create, edit, save and share documents with ease.",
+  "Sign_in": "Sign in",
+  "Sign_up": "Sign Up",
+  "hold_email": "Please enter your email"
 }

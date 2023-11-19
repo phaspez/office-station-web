@@ -61,5 +61,8 @@
   "appfeature.enterprise[2]": "OfficeStation Cloud 200 GB cho mỗi người dùng",
   "appfeature.enterprise[3]": "1 TB OfficeStation Cloud cho nhóm của bạn",
   "appfeature.enterprise[4]": "Hỗ trợ ưu tiên",
-  "documentpage.headline": "Tài liệu là trình soạn thảo văn bản giúp bạn tạo, chỉnh sửa, lưu và chia sẻ tài liệu một cách dễ dàng."
+  "documentpage.headline": "Tài liệu là trình soạn thảo văn bản giúp bạn tạo, chỉnh sửa, lưu và chia sẻ tài liệu một cách dễ dàng.",
+  "Sign_in": "Đăng nhập",
+  "Sign_up": "Đăng ký",
+  "hold_email": "Vui lòng nhập email"
 }
