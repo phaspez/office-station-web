@@ -10,7 +10,7 @@
         {$_("Sign_in")}
       </h3>
       <Label class="space-y-2">
-        <span>Email</span>
+        <span>Email:</span>
         <Input
           type="email"
           name="email"
@@ -19,25 +19,25 @@
         />
       </Label>
       <Label class="space-y-2">
-        <span>Your password</span>
-        <Input type="password" name="password" placeholder="•••••" required />
+        <span>{$_("Password")}</span>
+        <Input type="password" name="password" placeholder="{$_("hold_pass")}" required />
       </Label>
       <div class="flex items-start">
-        <Checkbox>Remember me</Checkbox>
+        <Checkbox>{$_("Remember")}</Checkbox>
         <a
           href="/"
           class="ml-auto text-sm text-primary-700 hover:underline dark:text-primary-500"
         >
-          Lost password?
+        {$_("lost")}
         </a>
       </div>
-      <Button type="submit" class="w-full">Login to your account</Button>
+      <Button type="submit" class="w-full">{$_("login")}</Button>
       <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
-        Not registered? <a
+        {$_("registered")} <a
           href="/login/signup"
           class="text-primary-700 hover:underline dark:text-primary-500"
         >
-          Create account
+        {$_("Create")}
         </a>
       </div>
     </form>
