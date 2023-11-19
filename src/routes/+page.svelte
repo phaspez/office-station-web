@@ -1,25 +1,26 @@
 <script>
   // @ts-nocheck
 
-  import { Button, Alert, Carousel, Indicator } from "flowbite-svelte";
+  import { Button, Alert, Carousel } from "flowbite-svelte";
   import { images, cloudimg, allDevicesImg, complatibleImg } from "./img";
   import AnimOnVisible from "./AnimOnVisible.svelte";
-  import { _, register, init, getLocaleFromNavigator } from "svelte-i18n";
+  import { _ } from "svelte-i18n";
 </script>
-
-<section>
-  <img
-    src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/products_apps_services_hero_3840x1200:VP5-1920x720?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=75"
-    alt=""
-  />
-</section>
 
 <p class="headline">{$_("homepage.headline")}</p>
 <p class="headline-details pt-0 lg:pr-96">
   {$_("homepage.headline.details")}
 </p>
 <Button>{$_("getstarted")}</Button>
-<div class="py-7" />
+<div class="py-7">
+  <div class="overflow-hidden">
+    <div
+      class="absolute invisible md:visible overflow-hidden -right-0 -top-5 opacity-30 z-1"
+    >
+      <img src="svelte-icon.png" alt="" />
+    </div>
+  </div>
+</div>
 
 <h1 class="text-4xl font-semibold">{$_("homepage.section1")}</h1>
 
@@ -172,18 +173,3 @@
   <Button>{$_("getstarted")}</Button>
   <div class="py-7" />
 </div>
-
-<!--
-<style lang="postcss">
-  .subsection {
-    @apply my-5 py-5 px-1 min-h-full;
-  }
-
-  section {
-    @apply py-7;
-  }
-
-  section p {
-    @apply py-3;
-  }
-</style> -->
