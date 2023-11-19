@@ -1,9 +1,9 @@
 <script>
-  import { dictionary } from "svelte-i18n";
+  import { _ } from "svelte-i18n";
 </script>
 
 <div class="flex flex-col items-center justify-center min-h-screen">
-  <h2 class="text-3xl font-bold mb-8">Sign in</h2>
+  <h2 class="text-3xl font-bold mb-8" >{$_("sign_in")}</h2>
   <div class="flex flex-col w-full max-w-md">
     <div class="mb-4">
       <label class="block text-gray-700 text-sm font-bold mb-2" for="email"
