@@ -1,6 +1,7 @@
 {
     "i18n-ally.localesPaths": [
-        "../../../my_web_projects/office-web/src/lib/translations"
+        "../../../my_web_projects/office-web/src/lib/translations",
+        "D:/HTML/office-station-web/src/lib/translations"
     ],
     "i18n-ally.keystyle": "flat"
 }
