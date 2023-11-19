@@ -1,13 +1,12 @@
 <script>
   import { Card, Button, Label, Input, Checkbox } from "flowbite-svelte";
-  import { _ } from "svelte-i18n";
 </script>
 
-<div class="flex items-center justify-center pt-25">
+<div class="flex items-center justify-items-center">
   <Card class="w-full max-w-md">
     <form class="flex flex-col space-y-6" action="/">
       <h3 class="text-xl font-medium text-gray-900 dark:text-white">
-        {$_("Sign_in")}
+        Sign in to our platform
       </h3>
       <Label class="space-y-2">
         <span>Email</span>
