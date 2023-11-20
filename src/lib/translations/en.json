@@ -83,5 +83,8 @@
   "agree": "Agree to our policy",
   "info": "We’ll never share your details. Read our ",
   "polycy": "Privacy Policy",
-  "policy": "Privacy Policy"
+  "policy": "privacy policy",
+  "fname": "First name:",
+  "hold_fname": "Please enter your first name",
+  "lname": "Last name:"
 }
