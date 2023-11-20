@@ -63,7 +63,7 @@
         <DropdownItem href="/products/sheets">{$_("Sheets")}</DropdownItem>
         <DropdownItem href="/products/slides">{$_("Slides")}</DropdownItem>
       </Dropdown>
-      <NavLi href="/login">Log in</NavLi>
+      <NavLi href="/login">{$_("Log in")}</NavLi>
       <div class="flex">
         <div
           class="border-2 mr-2 border-l border-slate-700 dark:border-slate-400"
