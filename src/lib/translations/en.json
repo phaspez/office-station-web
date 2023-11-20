@@ -86,5 +86,6 @@
   "policy": "privacy policy",
   "fname": "First name:",
   "hold_fname": "Please enter your first name",
-  "lname": "Last name:"
+  "lname": "Last name:",
+  "Log in": "Log in"
 }

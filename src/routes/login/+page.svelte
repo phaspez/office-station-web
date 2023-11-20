@@ -14,13 +14,18 @@
         <Input
           type="email"
           name="email"
-          placeholder="{$_("hold_email")}"
+          placeholder={$_("hold_email")}
           required
         />
       </Label>
       <Label class="space-y-2">
         <span>{$_("Password")}</span>
-        <Input type="password" name="password" placeholder="{$_("hold_pass")}" required />
+        <Input
+          type="password"
+          name="password"
+          placeholder={$_("hold_pass")}
+          required
+        />
       </Label>
       <div class="flex items-start">
         <Checkbox>{$_("Remember")}</Checkbox>
@@ -28,16 +33,17 @@
           href="/"
           class="ml-auto text-sm text-primary-700 hover:underline dark:text-primary-500"
         >
-        {$_("lost")}
+          {$_("lost")}
         </a>
       </div>
       <Button type="submit" class="w-full">{$_("login")}</Button>
       <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
-        {$_("registered")} <a
+        {$_("registered")}
+        <a
           href="/login/signup"
           class="text-primary-700 hover:underline dark:text-primary-500"
         >
-        {$_("Create")}
+          {$_("Create")}
         </a>
       </div>
     </form>

@@ -12,17 +12,15 @@
       </h3>
       <div class="mb-6">
         <Label for="input-group-1" class="block mb-2">{$_("fname")}</Label>
-        <Input id="First_name" type="text">
-        </Input>
+        <Input id="First_name" type="text" />
       </div>
       <div class="mb-6">
         <Label for="input-group-1" class="block mb-2">{$_("lname")}</Label>
-        <Input id="Last_name" type="text">
-        </Input>
+        <Input id="Last_name" type="text" />
       </div>
       <div class="mb-6">
         <Label for="input-group-1" class="block mb-2">Email:</Label>
-        <Input id="email" type="email" placeholder={$_("hold_email")}>
+        <Input id="email" type="email" placeholder={$_("hold_email")} required>
           <EnvelopeSolid
             slot="left"
             class="w-5 h-5 text-gray-500 dark:text-gray-400"
@@ -58,7 +56,11 @@
         <!-- svelte-ignore a11y-label-has-associated-control -->
         <label class="text-sm mt-2">
           {$_("info")}
-          <a href="/"class="font-medium text-primary-600 hover:underline dark:text-primary-500">{$_("policy")}</a> 
+          <a
+            href="/"
+            class="font-medium text-primary-600 hover:underline dark:text-primary-500"
+            >{$_("policy")}</a
+          >
         </label>
         <Checkbox checked>{$_("agree")}</Checkbox>
       </Label>
