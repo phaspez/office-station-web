@@ -84,5 +84,11 @@
   "agree": "Đồng ý với chính sách của chúng tôi",
   "policy": "chính sách bảo mật",
   "have_acc": "Đã có tài khoản?",
-  "Log in": "Đăng nhập"
+  "Log in": "Đăng nhập",
+  "documentpage.subsection1": "Tạo tài liệu văn bản dễ dàng nổi bật",
+  "documentpage.subsection1.details": "Đáng tin cậy và dễ sử dụng, Documents là trình soạn thảo văn bản luôn có tính năng hữu ích để hỗ trợ và bổ sung cho công việc của bạn. \nNhanh chóng điều chỉnh bố cục, phông chữ và định dạng, thêm hình ảnh và bảng biểu một cách dễ dàng.",
+  "documentpage.subsection2": "Tương thích với nhiều định dạng chính",
+  "documentpage.subsection2.details": "Tài liệu tương thích với 15 Định dạng tệp, bao gồm .doc, .docx, .docm, .dotm, .txt, .rtf, v.v. \nVới Tài liệu, bạn có thể dễ dàng giữ lại văn bản, tiêu đề, màu sắc, định dạng ô và số, bố cục cũng như các thành phần khác, đảm bảo rằng các tệp của bạn vẫn nguyên vẹn trong suốt quá trình.",
+  "documentpage.subsection3": "Hợp tác với đồng đội của bạn",
+  "documentpage.subsection3.details": "Trao quyền làm việc nhóm bằng nhận xét, theo dõi các thay đổi từ nhiều tác giả và tận dụng khả năng tương thích vững chắc với tất cả các định dạng tệp phổ biến, bao gồm Microsoft Office, Apple iWork, OpenOffice và các định dạng khác."
 }

@@ -14,7 +14,7 @@
 <Button>{$_("getstarted")}</Button>
 <div class="py-7">
   <div class="overflow-hidden">
-    <div
+    <div 
       class="absolute invisible md:visible overflow-hidden -right-0 -top-5 opacity-30 z-1"
     >
       <img src="svelte-icon.png" alt="" />

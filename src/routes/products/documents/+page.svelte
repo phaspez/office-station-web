@@ -23,13 +23,11 @@
 <section>
   <AnimOnVisible direction="left">
     <section>
-      <h1>Create easily outstanding text documents</h1>
+      <h1>{$_("documentpage.subsection1")}</h1>
       <div class="grid grid-cols-1 justify-items-stretch md:grid-cols-2">
         <div class="subsection">
           <p class>
-            Reliable and easy to use, Documents is a text editor that always has
-            a useful feature to support and complement your work. Quickly tweak
-            layouts, fonts and formatting, add images and tables with ease.
+            {$_("documentpage.subsection1.details")}
           </p>
         </div>
         <div class="subsection">
@@ -41,15 +39,11 @@
   <section>
     <AnimOnVisible direction="right">
       <section>
-        <h1>Complatible with many major formats</h1>
+        <h1>{$_("documentpage.subsection2")}</h1>
         <div class="grid grid-cols-1 justify-items-stretch md:grid-cols-2">
           <div class="subsection">
             <p class>
-              Documents is compatible with 15 File Formats, including .doc,
-              .docx, .docm, .dotm, .txt, .rtf, and more. With Documents, you can
-              effortlessly preserve text, headings, colors, cell and number
-              formats, layout, and other components, ensuring that your files
-              remain intact throughout the process.
+              {$_("documentpage.subsection2.details")}
             </p>
           </div>
           <div class="subsection">
@@ -61,13 +55,11 @@
   </section>
   <AnimOnVisible direction="left">
     <section>
-      <h1>Collaboration with your teammate</h1>
+      <h1>{$_("documentpage.subsection3")}</h1>
       <div class="grid grid-cols-1 justify-items-stretch md:grid-cols-2">
         <div class="subsection">
           <p class>
-            Empower teamwork with comments, track changes from multiple authors,
-            and leverage solid compatibility with all popular file formats,
-            including Microsoft Office, Apple iWork, OpenOffice, and others.
+            {$_("documentpage.subsection3.details")}
           </p>
         </div>
         <div class="subsection">

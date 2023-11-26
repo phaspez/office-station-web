@@ -87,5 +87,11 @@
   "fname": "First name:",
   "hold_fname": "Please enter your first name",
   "lname": "Last name:",
-  "Log in": "Log in"
+  "Log in": "Log in",
+  "documentpage.subsection1": "Create easily outstanding text documents",
+  "documentpage.subsection1.details": "Reliable and easy to use, Documents is a text editor that always has a useful feature to support and complement your work. Quickly tweak layouts, fonts and formatting, add images and tables with ease.",
+  "documentpage.subsection2": "Complatible with many major formats",
+  "documentpage.subsection2.details": "Documents is compatible with 15 File Formats, including .doc, .docx, .docm, .dotm, .txt, .rtf, and more. With Documents, you can effortlessly preserve text, headings, colors, cell and number formats, layout, and other components, ensuring that your files remain intact throughout the process.",
+  "documentpage.subsection3": "Collaboration with your teammate",
+  "documentpage.subsection3.details": "Empower teamwork with comments, track changes from multiple authors, and leverage solid compatibility with all popular file formats, including Microsoft Office, Apple iWork, OpenOffice, and others."
 }
