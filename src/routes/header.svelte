@@ -36,14 +36,13 @@
   <Navbar
     let:hidden
     let:toggle
-    class="px-2 bg-slate-300 bg-opacity-60 dark:bg-slate-800 dark:bg-opacity-60 backdrop-blur-md sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 border-b list-none"
+    class="px-2 text-white bg-orange-300 bg-opacity-90 dark:bg-blue-800 dark:bg-opacity-80 backdrop-blur-lg sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 list-none"
   >
     <NavBrand href="/">
       <img src="svelte-icon.png" class="mr-3 h-6 sm:h-9" alt="Office Logo" />
       <span
         class="self-center whitespace-nowrap text-xl font-semibold dark:text-white"
       >
-        OfficeStation
       </span>
     </NavBrand>
     <NavHamburger on:click={toggle} />

@@ -20,7 +20,7 @@
           <div
             class="border-b-2 border-neutral-100 border-opacity-100 p-6 text-center dark:border-opacity-10"
           >
-            <p class="mb-4 text-sm uppercase">
+            <p class="mb-4 text-sm uppercase text-center">
               <strong>Basic</strong>
             </p>
             <h3 class="mb-6 text-3xl">
@@ -48,7 +48,7 @@
           <div
             class="border-b-2 border-neutral-100 border-opacity-20 p-6 text-center"
           >
-            <p class="mb-4 text-sm uppercase">
+            <p class="mb-4 text-sm uppercase text-center">
               <strong>Pro</strong>
             </p>
             <h3 class="mb-6 text-3xl">
@@ -76,7 +76,7 @@
           <div
             class="border-b-2 border-neutral-100 border-opacity-100 p-6 text-center dark:border-opacity-10"
           >
-            <p class="mb-4 text-sm uppercase">
+            <p class="mb-4 text-sm uppercase text-center">
               <strong>Enterprise</strong>
             </p>
             <h3 class="mb-6 text-3xl">

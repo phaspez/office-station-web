@@ -34,7 +34,7 @@
         on:change
       />
       <Checkbox
-        class="mb-6 space-x-1"
+        class="mb-6 space-x-1 py-2"
         required
         bind:checked={isStudentDiscount}
       >

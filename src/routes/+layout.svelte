@@ -19,12 +19,12 @@
       });
     });
   });
+
+  let px = "lg:px-20 px-2 md:px-10 sm:px-5";
 </script>
 
 <Header />
-<main
-  class="background-light dark:background-dark dark:text-white py-5 px-2 lg:px-20 md:px-10 sm:px-5"
->
+<main class="background-light dark:background-dark dark:text-white py-5">
   <div class="py-10" />
   <slot />
 </main>
