@@ -17,6 +17,7 @@ Có 7 trang web chứa thông tin khác nhau:
 - svelte-intersection-observer
 - Tailwind CSS
 - Flowbite
+- font-awesome
 - svelte-i18n
 
 ## Cài đặt và setup trang web
