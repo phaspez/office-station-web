@@ -93,5 +93,13 @@
   "documentpage.subsection2": "Complatible with many major formats",
   "documentpage.subsection2.details": "Documents is compatible with 15 File Formats, including .doc, .docx, .docm, .dotm, .txt, .rtf, and more. With Documents, you can effortlessly preserve text, headings, colors, cell and number formats, layout, and other components, ensuring that your files remain intact throughout the process.",
   "documentpage.subsection3": "Collaboration with your teammate",
-  "documentpage.subsection3.details": "Empower teamwork with comments, track changes from multiple authors, and leverage solid compatibility with all popular file formats, including Microsoft Office, Apple iWork, OpenOffice, and others."
+  "documentpage.subsection3.details": "Empower teamwork with comments, track changes from multiple authors, and leverage solid compatibility with all popular file formats, including Microsoft Office, Apple iWork, OpenOffice, and others.",
+  "hold_lname": "Please enter your last name",
+  "sheet.headline": "Welcome to OfficeStation sheet software, a powerful multitasking tool for managing and organizing your data. With a user-friendly interface and flexibility, sheet software makes it easy to create, edit and share spreadsheets.",
+  "sheeet.subsection1": "Easily create Excel data",
+  "sheeet.subsection1.details": "OfficeStation is a free Excel editing tool that makes creating, editing, saving, and sharing worksheets easy. Seamlessly handle Excel spreadsheets across multiple platforms with full compatibility with Microsoft Office. Can be used on Windows PC, Mac, Linux, Android and iOS.",
+  "sheet.subsection2": "User-friendly interface, free alternative to Microsoft Excel",
+  "sheet.subsection2.details": "Experience a seamless and intuitive journey with spreadsheets in OfficeStation's user-friendly interface, carefully designed to resemble Excel.\nThe application feels familiar and easy to operate, making it easy to create, edit and format Excel spreadsheets with confidence.",
+  "sheet.subsection3": "Manage and share files, from anywhere",
+  "sheet.subsection3.details": "OfficeStation syncs with Excel files across multiple devices: Windows PC, Mac, Linux, Android, iPhone, iPad, and many cloud platforms.\nCollaborate in real time, track edits, versions, and contributors. With OfficeStation, everyone stays on top of the latest content, helping teams work smoothly and collaborate effectively."
 }

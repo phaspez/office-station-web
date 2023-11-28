@@ -14,7 +14,7 @@
   <div class="grid grid-cols-2">
     <i class="fa-brands fa-linux text-8xl text-center"></i>
     <div>
-      <p>Linus, Ubuntu</p>
+      <p>Linux, Ubuntu</p>
       <Button>{$_("getstarted")}</Button>
     </div>
   </div>
