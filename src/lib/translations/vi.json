@@ -90,5 +90,14 @@
   "documentpage.subsection2": "Tương thích với nhiều định dạng chính",
   "documentpage.subsection2.details": "Tài liệu tương thích với 15 Định dạng tệp, bao gồm .doc, .docx, .docm, .dotm, .txt, .rtf, v.v. \nVới Tài liệu, bạn có thể dễ dàng giữ lại văn bản, tiêu đề, màu sắc, định dạng ô và số, bố cục cũng như các thành phần khác, đảm bảo rằng các tệp của bạn vẫn nguyên vẹn trong suốt quá trình.",
   "documentpage.subsection3": "Hợp tác với đồng đội của bạn",
-  "documentpage.subsection3.details": "Trao quyền làm việc nhóm bằng nhận xét, theo dõi các thay đổi từ nhiều tác giả và tận dụng khả năng tương thích vững chắc với tất cả các định dạng tệp phổ biến, bao gồm Microsoft Office, Apple iWork, OpenOffice và các định dạng khác."
+  "documentpage.subsection3.details": "Trao quyền làm việc nhóm bằng nhận xét, theo dõi các thay đổi từ nhiều tác giả và tận dụng khả năng tương thích vững chắc với tất cả các định dạng tệp phổ biến, bao gồm Microsoft Office, Apple iWork, OpenOffice và các định dạng khác.",
+  "hold_fname": "Vui lòng nhập họ của bạn",
+  "hold_lname": "Vui lòng nhập tên của bạn",
+  "sheet.headline": "Chào mừng bạn đến với phần mềm bảng tính OfficeStation, một công cụ đa nhiệm mạnh mẽ để quản lý và sắp xếp dữ liệu của bạn. \nVới giao diện thân thiện với người dùng và tính linh hoạt, phần mềm trang tính giúp bạn dễ dàng tạo, chỉnh sửa và chia sẻ bảng tính.",
+  "sheeet.subsection1": "Dễ dàng tạo dữ liệu Excel",
+  "sheeet.subsection1.details": "OfficeStation là một công cụ chỉnh sửa Excel miễn phí giúp tạo, chỉnh sửa, lưu và chia sẻ bảng tính dễ dàng. \nXử lý liền mạch các bảng tính Excel trên nhiều nền tảng với khả năng tương thích hoàn toàn với Microsoft Office. \nCó thể được sử dụng trên Windows PC, Mac, Linux, Android và iOS.",
+  "sheet.subsection2": "Giao diện thân thiện với người dùng, thay thế miễn phí cho Microsoft Excel",
+  "sheet.subsection2.details": "Trải nghiệm hành trình liền mạch và trực quan với bảng tính trong giao diện thân thiện với người dùng của OfficeStation, được thiết kế cẩn thận để giống với Excel.\n\nỨng dụng này cho cảm giác quen thuộc và dễ vận hành, giúp bạn dễ dàng tạo, chỉnh sửa và định dạng bảng tính Excel một cách tự tin.",
+  "sheet.subsection3": "Quản lý và chia sẻ tập tin từ mọi nơi",
+  "sheet.subsection3.details": "OfficeStation đồng bộ hóa với các tệp Excel trên nhiều thiết bị: Windows PC, Mac, Linux, Android, iPhone, iPad và nhiều nền tảng đám mây.\n\nCộng tác trong thời gian thực, theo dõi các chỉnh sửa, phiên bản và người đóng góp. \nVới OfficeStation, mọi người luôn cập nhật nội dung mới nhất, giúp các nhóm làm việc suôn sẻ và cộng tác hiệu quả."
 }

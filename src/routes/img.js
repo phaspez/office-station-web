@@ -39,3 +39,26 @@ export const complatibleImg = [
     title: 'Complatible with all devices'
   },
 ]
+export const sheets1 = [
+  {
+    alt: 'sheet1',
+    src: 'https://website-prod.cache.wpscdn.com/img/slogan.66faec9.png',
+    title: 'sheet1'
+  },
+]
+
+export const sheets2 = [
+  {
+    alt: 'sheet2',
+    src: 'https://website-prod.cache.wpscdn.com/img/introduce1.f7b45aa.png',
+    title: 'sheet2'
+  },
+]
+
+export const sheets3 = [
+  {
+    alt: 'sheet3',
+    src: 'https://website-prod.cache.wpscdn.com/img/introduce3.95be990.png',
+    title: 'sheet3'
+  },
+]
