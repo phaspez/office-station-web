@@ -83,3 +83,17 @@ export const slides3 = [
     title: 'slides3'
   }
 ]
+export const about1 = [
+  {
+    alt: 'about1',
+    src: 'https://website-prod.cache.wpscdn.com/img/templates.9e757ad.png',
+    title: 'about1'
+  }
+]
+export const about2 = [
+  {
+    alt: 'about2',
+    src: 'https://website-prod.cache.wpscdn.com/img/Files_Management_Across_Devices.6f009ba.png',
+    title: 'about2'
+  }
+]
