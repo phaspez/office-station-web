@@ -62,3 +62,38 @@ export const sheets3 = [
     title: 'sheet3'
   },
 ]
+export const slides1 = [
+  {
+    alt: 'slides1',
+    src: 'https://website-prod.cache.wpscdn.com/img/introduce2.fd3ccc2.png',
+    title: 'slides1'
+  }
+]
+export const slides2 = [
+  {
+    alt: 'slides2',
+    src: 'https://website-prod.cache.wpscdn.com/img/introduce1.8abf35c.png',
+    title: 'slides2'
+  }
+]
+export const slides3 = [
+  {
+    alt: 'slides3',
+    src: 'https://website-prod.cache.wpscdn.com/img/introduce4.2393f22.png',
+    title: 'slides3'
+  }
+]
+export const about1 = [
+  {
+    alt: 'about1',
+    src: 'https://website-prod.cache.wpscdn.com/img/templates.9e757ad.png',
+    title: 'about1'
+  }
+]
+export const about2 = [
+  {
+    alt: 'about2',
+    src: 'https://website-prod.cache.wpscdn.com/img/Files_Management_Across_Devices.6f009ba.png',
+    title: 'about2'
+  }
+]
