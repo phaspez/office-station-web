@@ -15,6 +15,7 @@ Có 7 trang web chứa thông tin khác nhau:
 
 - SvelteKit
 - svelte-intersection-observer
+- font-awesome
 - Tailwind CSS
 - Flowbite
 - font-awesome
@@ -27,7 +28,7 @@ Có 7 trang web chứa thông tin khác nhau:
 Trước khi bắt đầu, bạn cần cài đặt Node.js bản LTS mới nhất tại https://nodejs.org/ hoặc các trình JavaScript runtime khác.
 
 1. Truy cập vào thư mục chứa toàn bộ dự án
-2. Mở CMD tại thư mục đó, nếu sử dụng VSCode, có thể sử dụng phím tắt Ctrl + ``````
+2. Mở CMD tại thư mục đó, nếu sử dụng VSCode, có thể sử dụng phím tắt Ctrl + `
    ```
    npm install
    ```
@@ -47,16 +48,16 @@ office-web
 ├── .sveltekit..................... chứa file hệ thống của SvelteKit
 ├── node-modules................... chứa các file thư viện và framework
 ├── src............................ chứa toàn bộ file code của dự án
-├────├── lib
-├────└────└── translations......... gồm các file phiên dịch của trang web
-├────├── routes.................... gồm trang chủ và các trang con của trang web
-├────├────├── about................ trang về chúng tôi
-├────├────└── login................ trang đăng nhập
-├────├────├─────└──── signup....... trang đăng ký
-├────├────├── pricing.............. trang biểu phí
-├────├────└── products............. thư mục chứa các trang sản phẩm
-├────├────├─────├──── documents
-├────├────├─────├──── sheets
-├────└────└─────└──── slides
+├    ├── lib
+├    ├    └── translations......... gồm các file phiên dịch của trang web
+├    ├── routes.................... gồm trang chủ và các trang con của trang web
+├    ├    ├── about................ trang về chúng tôi
+├    ├    ├── login................ trang đăng nhập
+├    ├    ├    └──── signup........ trang đăng ký
+├    ├    ├── pricing.............. trang biểu phí
+├    ├    ├── products............. thư mục chứa các trang sản phẩm
+├    ├    ├    ├──── documents
+├    ├    ├    ├──── sheets
+├    └    └    └──── slides
 └─── static........................ gồm các file hình ảnh liên quan khác
 ```

@@ -1,3 +1,12 @@
+<!-- 
+  Đây là file chứa các định dạng HTML và CSS dùng làm hiệu ứng di chuyển khi thành phần con của
+  thành phần này xuất hiện trên màn hình. Sử dụng như một hiệu năng để wrap các thành phần khá.
+  cho trang web.
+
+  Sử dụng svelte-intersection-observer để phát hiện các phần tử con xuất hiện trên màn hình để
+  hiển thị hiệu ứng di chuyển.
+-->
+
 <script>
   //@ts-nocheck
   import IntersectionObserver from "svelte-intersection-observer";
@@ -28,14 +37,14 @@
     filter: blur(10px);
     transform: translateX(100%);
     transition-delay: 400ms;
-    transition: all 800ms;
+    transition: all 1200ms;
   }
   .hide-r {
     opacity: 0;
     filter: blur(10px);
     transform: translateX(-100%);
     transition-delay: 400ms;
-    transition: all 800ms;
+    transition: all 1200ms;
   }
 
   .show {

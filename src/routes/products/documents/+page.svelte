@@ -28,7 +28,7 @@
   <Background color="blue">
     <AnimOnVisible direction="left">
       <div class="innercenter">
-        <h1>{$_("documentpage.subsection1")}</h1>
+        <h1 class="font-medium">{$_("documentpage.subsection1")}</h1>
         <div class="grid grid-cols-1 justify-items-stretch md:grid-cols-2">
           <div class="subsection">
             <p class>
@@ -46,7 +46,7 @@
   <Background color="lavender">
     <AnimOnVisible direction="right">
       <div class="innercenter">
-        <h1>{$_("documentpage.subsection2")}</h1>
+        <h1 class="font-medium">{$_("documentpage.subsection2")}</h1>
         <div class="grid grid-cols-1 justify-items-stretch md:grid-cols-2">
           <div class="subsection">
             <p class>
@@ -60,10 +60,11 @@
       </div>
     </AnimOnVisible>
   </Background>
+
   <Background color="sublime">
     <AnimOnVisible direction="left">
       <div class="innercenter">
-        <h1>{$_("documentpage.subsection3")}</h1>
+        <h1 class="font-medium">{$_("documentpage.subsection3")}</h1>
         <div class="grid grid-cols-1 justify-items-stretch md:grid-cols-2">
           <div class="subsection">
             <p class>
@@ -78,6 +79,7 @@
     </AnimOnVisible>
   </Background>
 </div>
-<div class="py-10">
+
+<div class="py-10 innercenter">
   <DownloadApp></DownloadApp>
 </div>

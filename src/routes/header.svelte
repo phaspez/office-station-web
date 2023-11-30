@@ -1,3 +1,8 @@
+<!-- 
+  Đây là file chứa các định dạng HTML cho header của trang web, dùng với mọi trang con của website sử dụng:
+  + Các thành phần trong thư viện và các icon trong Flowbite 
+-->
+
 <script>
   import {
     Navbar,
@@ -17,6 +22,8 @@
   $: activeUrl = $page.url.pathname;
 
   let themeState = true;
+
+  // thay đổi chế độ sáng tối
   function toggleTheme() {
     if (themeState) {
       document.documentElement.classList.add("dark");
@@ -27,6 +34,7 @@
     themeState = !themeState;
   }
 
+  // thay đổi ngôn ngữ
   function toggleLanuage(lang = "en-US") {
     $locale = lang;
   }

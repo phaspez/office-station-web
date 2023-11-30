@@ -1,3 +1,11 @@
+<!-- 
+  Đây là file chứa các định dạng HTML chứa các nút để tải ứng dụng trên nhiều hệ điều hành khác nhau, dùng làm
+  thành phần hiệu năng cho trang web.
+  Sử dụng các thư viện sau:
+  + Các thẻ HTML sẵn trong thư viện và các icon trong Flowbite 
+  + Hàm phiên dịch của i18n có định dạnh { $_("key") }
+-->
+
 <script>
   import { Button } from "flowbite-svelte";
   import { _ } from "svelte-i18n";

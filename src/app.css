@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 h1 {
-    @apply text-2xl font-extrabold py-10;
+    @apply text-4xl font-extrabold py-10;
 }
 
 h2 {
@@ -26,7 +26,7 @@ h2 {
     }
 
     p {
-        @apply text-justify py-3;
+        @apply text-justify py-3 text-lg;
     }
 
     .innercenter {
@@ -46,7 +46,7 @@ h2 {
     }
 
     .headline {
-        @apply text-4xl font-light md:text-5xl lg:text-5xl py-3;
+        @apply text-4xl font-bold md:text-5xl lg:text-5xl py-3;
     }
     .headline-details {
         @apply text-3xl py-12 font-extralight;

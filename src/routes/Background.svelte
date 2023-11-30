@@ -1,3 +1,8 @@
+<!-- 
+  Đây là file chứa các định dạng Tailwind CSS dùng làm màu nền cho các thành phần (component) khác 
+  cho trang web.
+-->
+
 <script>
   export var color = "blue";
 </script>
@@ -6,6 +11,7 @@
   <slot />
 </main>
 
+<!-- Định dạng sử dụng Tailwind CSS -->
 <style lang="postcss">
   .blue {
     @apply bg-gradient-to-r from-green-300/40 via-blue-500/40 to-purple-600/40;

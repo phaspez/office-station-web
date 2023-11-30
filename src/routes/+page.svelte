@@ -1,6 +1,14 @@
+<!-- 
+  Đây là file chứa các định dạng HTML và CSS định dạng trang chủ của website. 
+
+  Các thư viện sử dụng:
+  + Sử dụng thẻ Background, DownloadApp và AnimOnVisible custom của nhóm
+  + Với các thẻ trong thư viện Flowbite.
+-->
+
 <script>
   // @ts-nocheck
-
+  // khai báo các thư viện cần thiết
   import { Button, Alert, Carousel } from "flowbite-svelte";
   import { images, cloudimg, allDevicesImg, complatibleImg } from "./img";
   import AnimOnVisible from "./AnimOnVisible.svelte";
@@ -19,6 +27,7 @@
   </div>
 </div>
 
+<!-- Tiêu đề website -->
 <div class="lg:px-20 px-2 md:px-10 sm:px-5">
   <p class="headline">{$_("homepage.headline")}</p>
   <p class="headline-details pt-0 lg:pr-96">
@@ -29,13 +38,15 @@
 </div>
 
 <div>
-  <h1 class="text-4xl font-semibold innercenter">{$_("homepage.section1")}</h1>
+  <!-- Tiêu đề của mục 1 -->
+  <h1 class="text-4xl innercenter">{$_("homepage.section1")}</h1>
 
+  <!-- Nội dung con của mục 1 -->
   <div>
     <Background color="blue">
       <AnimOnVisible direction="left">
         <div class="innercenter">
-          <h1>{$_("homepage.section1.sub")}</h1>
+          <h1 class="font-medium">{$_("homepage.section1.sub")}</h1>
           <div class="grid grid-cols-1 md:grid-cols-2">
             <div class="subsection overflow-visible min-h-full">
               <div class="max-w-4xl min-h-full h-max align-middle p-0 m-0">
@@ -68,7 +79,7 @@
     <Background color="purple">
       <AnimOnVisible direction="right">
         <div class="innercenter">
-          <h1>{$_("homepage.section1.sub2")}</h1>
+          <h1 class="font-medium">{$_("homepage.section1.sub2")}</h1>
           <div class="grid grid-cols-1 md:grid-cols-2">
             <div class="subsection">
               <p>{$_("homepage.section1.sub2.details")}</p>
@@ -96,7 +107,7 @@
     <Background color="sublime">
       <AnimOnVisible direction="left">
         <div class="innercenter">
-          <h1>{$_("homepage.section1.sub3")}</h1>
+          <h1 class="font-medium">{$_("homepage.section1.sub3")}</h1>
           <div class="grid grid-cols-1 md:grid-cols-2">
             <div class="subsection">
               <Carousel
@@ -124,7 +135,7 @@
     <Background color="lavender">
       <AnimOnVisible direction="right">
         <div class="innercenter">
-          <h1>{$_("homepage.section1.sub4")}</h1>
+          <h1 class="font-medium">{$_("homepage.section1.sub4")}</h1>
           <div class="grid grid-cols-1 md:grid-cols-2">
             <div class="subsection">
               <p>
@@ -152,7 +163,8 @@
     </Background>
   </div>
 
-  <h1 class="text-4xl font-semibold innercenter">{$_("homepage.section2")}</h1>
+  <!-- Tiêu  của mục 2 -->
+  <h1 class="text-4xl innercenter">{$_("homepage.section2")}</h1>
   <Background color="blue">
     <AnimOnVisible>
       <div class="innercenter py-5">
@@ -188,7 +200,7 @@
     </AnimOnVisible>
   </Background>
 
-  <h1 class="text-4xl font-semibold innercenter">
+  <h1 class="text-4xl innercenter">
     {$_("homepage.section3")}
   </h1>
   <div class="innercenter">

@@ -1,3 +1,8 @@
+<!-- 
+  Đây là file chứa các định dạng HTML cho footer của trang web, dùng với mọi trang con của website sử dụng:
+  + Các thành phần trong thư viện và các icon trong Flowbite 
+-->
+
 <script>
   import {
     Footer,

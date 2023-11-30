@@ -24,7 +24,9 @@
 </script>
 
 <Header />
-<main class="background-light dark:background-dark dark:text-white py-5">
+<main
+  class="background-light dark:background-dark dark:text-white py-5 min-h-screen"
+>
   <div class="py-10" />
   <slot />
 </main>
