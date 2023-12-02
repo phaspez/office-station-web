@@ -18,9 +18,10 @@
   $: sumPrice = normalPrice * (1 - totalDiscount);
 </script>
 
-<div class="grid grid-cols-1 md:grid-cols-2">
+<div class="grid grid-cols-1 md:grid-cols-2 items-center">
   <div class="px-2 lg:align-items-center">
     <div>
+      {@html $_("pricingpage.section1.details")}
       <h2>{$_("quantity")}</h2>
       <Input
         type="number"
@@ -53,7 +54,7 @@
       </h2>
     </div>
   </div>
-  <div>
+  <div class="a align-middle">
     <Alert color="none" class="box-info-green drop-shadow-md m-1">
       {@html $_("pricingpage.studentdiscount")}
     </Alert>

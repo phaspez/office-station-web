@@ -15,14 +15,15 @@
   import { _ } from "svelte-i18n";
   import Background from "./Background.svelte";
   import DownloadApp from "./DownloadApp.svelte";
+  import UserReview from "./UserReview.svelte";
 </script>
 
 <div class="">
   <div class="overflow-hidden">
     <div
-      class="absolute invisible md:visible overflow-hidden -right-0 -top-5 opacity-30 z-1"
+      class="absolute invisible md:visible overflow-hidden -right-0 -top-5 mix-blend-multiply dark:mix-blend-hard-light lg:opacity-30 opacity-20 z-1"
     >
-      <img src="svelte-icon.png" alt="" />
+      <img class="w-96" src="svelte-icon.png" href alt="" />
     </div>
   </div>
 </div>
@@ -47,9 +48,11 @@
       <AnimOnVisible direction="left">
         <div class="innercenter">
           <h1 class="font-medium">{$_("homepage.section1.sub")}</h1>
-          <div class="grid grid-cols-1 md:grid-cols-2">
+          <div class="grid grid-cols-1 md:grid-cols-2 items-center">
             <div class="subsection overflow-visible min-h-full">
-              <div class="max-w-4xl min-h-full h-max align-middle p-0 m-0">
+              <div
+                class="max-w-4xl min-h-full h-max align-middle p-0 m-0 sm:order-first"
+              >
                 <Carousel {images} duration={5000} let:Controls let:Indicators>
                   <Controls />
                   <Indicators />
@@ -80,7 +83,7 @@
       <AnimOnVisible direction="right">
         <div class="innercenter">
           <h1 class="font-medium">{$_("homepage.section1.sub2")}</h1>
-          <div class="grid grid-cols-1 md:grid-cols-2">
+          <div class="grid grid-cols-1 md:grid-cols-2 items-center">
             <div class="subsection">
               <p>{$_("homepage.section1.sub2.details")}</p>
               <Alert color="none" class="box-info-blue drop-shadow-md m-1">
@@ -88,7 +91,7 @@
                 {$_("OfficeStation.Cloud.about")}
               </Alert>
             </div>
-            <div class="subsection">
+            <div class="subsection order-first md:order-last">
               <Carousel
                 images={cloudimg}
                 duration={5000}
@@ -108,7 +111,7 @@
       <AnimOnVisible direction="left">
         <div class="innercenter">
           <h1 class="font-medium">{$_("homepage.section1.sub3")}</h1>
-          <div class="grid grid-cols-1 md:grid-cols-2">
+          <div class="grid grid-cols-1 md:grid-cols-2 items-center">
             <div class="subsection">
               <Carousel
                 images={complatibleImg}
@@ -136,7 +139,7 @@
       <AnimOnVisible direction="right">
         <div class="innercenter">
           <h1 class="font-medium">{$_("homepage.section1.sub4")}</h1>
-          <div class="grid grid-cols-1 md:grid-cols-2">
+          <div class="grid grid-cols-1 md:grid-cols-2 items-center">
             <div class="subsection">
               <p>
                 {$_("homepage.section1.sub4.details")}
@@ -146,7 +149,7 @@
                 {@html $_("officestation.mobile.info")}
               </Alert>
             </div>
-            <div class="subsection">
+            <div class="subsection order-first md:order-last">
               <Carousel
                 images={allDevicesImg}
                 duration={5000}
@@ -196,6 +199,17 @@
             </Alert>
           </div>
         </div>
+      </div>
+    </AnimOnVisible>
+  </Background>
+
+  <h1 class="text-4xl innercenter">
+    {$_("homepage.section4")}
+  </h1>
+  <Background color="purple">
+    <AnimOnVisible direction="right">
+      <div class="innercenter">
+        <UserReview />
       </div>
     </AnimOnVisible>
   </Background>

@@ -32,9 +32,9 @@
           </div>
           <div class="p-6">
             <ol class="list-inside">
-              <FeatureCheck>{$_("appfeature.free.1")}</FeatureCheck>
-              <FeatureCheck>{$_("appfeature.free.2")}</FeatureCheck>
-              <FeatureCheck>{$_("appfeature.free.3")}</FeatureCheck>
+              <FeatureCheck>{$_("appfeature.free1")}</FeatureCheck>
+              <FeatureCheck>{$_("appfeature.free2")}</FeatureCheck>
+              <FeatureCheck>{$_("appfeature.free3")}</FeatureCheck>
             </ol>
           </div>
         </div>
@@ -60,10 +60,10 @@
           </div>
           <div class="p-6">
             <ol class="list-inside">
-              <FeatureCheck>{$_("appfeature.pro.1")}</FeatureCheck>
-              <FeatureCheck>{$_("appfeature.pro.2")}</FeatureCheck>
-              <FeatureCheck>{$_("appfeature.pro.3")}</FeatureCheck>
-              <FeatureCheck>{$_("appfeature.pro.4")}</FeatureCheck>
+              <FeatureCheck>{$_("appfeature.pro1")}</FeatureCheck>
+              <FeatureCheck>{$_("appfeature.pro2")}</FeatureCheck>
+              <FeatureCheck>{$_("appfeature.pro3")}</FeatureCheck>
+              <FeatureCheck>{$_("appfeature.pro4")}</FeatureCheck>
             </ol>
           </div>
         </div>
@@ -87,10 +87,10 @@
           </div>
           <div class="p-6">
             <ol class="list-inside">
-              <FeatureCheck>{$_("appfeature.enterprise.1")}</FeatureCheck>
-              <FeatureCheck>{$_("appfeature.enterprise.2")}</FeatureCheck>
-              <FeatureCheck>{$_("appfeature.enterprise.3")}</FeatureCheck>
-              <FeatureCheck>{$_("appfeature.enterprise.4")}</FeatureCheck>
+              <FeatureCheck>{$_("appfeature.enterprise1")}</FeatureCheck>
+              <FeatureCheck>{$_("appfeature.enterprise2")}</FeatureCheck>
+              <FeatureCheck>{$_("appfeature.enterprise3")}</FeatureCheck>
+              <FeatureCheck>{$_("appfeature.enterprise4")}</FeatureCheck>
             </ol>
           </div>
         </div>

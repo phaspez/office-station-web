@@ -20,9 +20,13 @@
 <div class="">
   <div class="overflow-hidden">
     <div
-      class="absolute invisible md:visible overflow-hidden -right-0 -top--5 opacity-90 z-1 mr-20"
+      class="absolute invisible md:visible overflow-hidden mix-blend-multiply dark:mix-blend-hard-light right-12 top-14 lg:opacity-90 md:opacity-20 z-1"
     >
-      <img src="https://website-prod.cache.wpscdn.com/img/format_xls.4075155.png" alt="" />
+      <img
+        class="w-80"
+        src="https://website-prod.cache.wpscdn.com/img/format_xls.4075155.png"
+        alt=""
+      />
     </div>
   </div>
 </div>
@@ -88,7 +92,6 @@
       </div>
     </AnimOnVisible>
   </Background>
-
 </div>
 <div class="py-10">
   <DownloadApp></DownloadApp>

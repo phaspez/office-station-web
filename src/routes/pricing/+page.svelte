@@ -9,15 +9,16 @@
 
 <div class="innercenter">
   <h1 class="headline">{$_("pricingpage")}</h1>
-  <p class="headline-details">{$_("pricingpage.details")}</p>
+  <p class="headline-details pt-0 lg:pr-96">{$_("pricingpage.details")}</p>
   <PricingGroup />
 </div>
 
-<h1 class="text-4xl innercenter font-semibold">{$_("pricingpage.section1")}</h1>
 <Background>
+  <h1 class="text-4xl innercenter font-semibold">
+    {$_("pricingpage.section1")}
+  </h1>
   <div class="innercenter py-5">
     <AnimOnVisible>
-      {@html $_("pricingpage.section1.details")}
       <div>
         <PricingBulkPurchase />
       </div>
@@ -25,10 +26,10 @@
   </div>
 </Background>
 
-<h1 class="text-4xl innercenter font-semibold">
-  {$_("pricingpage.section2")}
-</h1>
 <Background color="sublime">
+  <h1 class="text-4xl innercenter font-semibold">
+    {$_("pricingpage.section2")}
+  </h1>
   <div class="innercenter py-5">
     <div>
       <PricingFaq />

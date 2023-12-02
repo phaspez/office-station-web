@@ -20,9 +20,13 @@
 <div class="">
   <div class="overflow-hidden">
     <div
-      class="absolute invisible md:visible overflow-hidden -right-0 -top--1 opacity-90 z-5 mr-20"
+      class="absolute invisible md:visible overflow-hidden mix-blend-multiply dark:mix-blend-hard-light right-12 top-14 lg:opacity-90 md:opacity-20 z-1"
     >
-      <img src="https://website-prod.cache.wpscdn.com/img/format_doc.46c8679.png" alt="" />
+      <img
+        class="w-80"
+        src="https://website-prod.cache.wpscdn.com/img/format_doc.46c8679.png"
+        alt=""
+      />
     </div>
   </div>
 </div>
@@ -39,7 +43,9 @@
     <AnimOnVisible direction="left">
       <div class="innercenter">
         <h1 class="font-medium">{$_("documentpage.subsection1")}</h1>
-        <div class="grid grid-cols-1 justify-items-stretch md:grid-cols-2">
+        <div
+          class="grid grid-cols-1 justify-items-stretch items-center md:grid-cols-2"
+        >
           <div class="subsection">
             <p class>
               {$_("documentpage.subsection1.details")}
@@ -57,7 +63,9 @@
     <AnimOnVisible direction="right">
       <div class="innercenter">
         <h1 class="font-medium">{$_("documentpage.subsection2")}</h1>
-        <div class="grid grid-cols-1 justify-items-stretch md:grid-cols-2">
+        <div
+          class="grid grid-cols-1 items-center justify-items-stretch md:grid-cols-2"
+        >
           <div class="subsection">
             <p class>
               {$_("documentpage.subsection2.details")}
@@ -75,7 +83,9 @@
     <AnimOnVisible direction="left">
       <div class="innercenter">
         <h1 class="font-medium">{$_("documentpage.subsection3")}</h1>
-        <div class="grid grid-cols-1 justify-items-stretch md:grid-cols-2">
+        <div
+          class="grid grid-cols-1 justify-items-stretch items-center md:grid-cols-2"
+        >
           <div class="subsection">
             <p class>
               {$_("documentpage.subsection3.details")}
