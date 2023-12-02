@@ -10,21 +10,17 @@
   import { Timeline, TimelineItem, Button, Heading, P } from 'flowbite-svelte';
   import { ArrowRightOutline } from 'flowbite-svelte-icons';
 </script>
-<div class="">
-  <div class="overflow-hidden">
-    <div
-      class="absolute invisible md:visible overflow-hidden -right-0 -top-5 opacity-30 z-1"
-    >
-      <img src="svelte-icon.png" alt="" />
-    </div>
-  </div>
-</div>
-<div class="h-100">
+
+
+<div >
   <br>
   <h1 class="text-center text-5xl">{$_("about.headline")}</h1>
   <br>
 </div>
-<div class="bg-white py-5 sm:py-5">
+
+<Background>
+  <AnimOnVisible direction="left">
+<div class="">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
       <div class="mx-auto flex max-w-xs flex-col gap-y-4">
@@ -42,6 +38,8 @@
     </dl>
   </div>
 </div>
+</AnimOnVisible>
+</Background>
 
 <Background color="yellow">
   <AnimOnVisible direction="left">

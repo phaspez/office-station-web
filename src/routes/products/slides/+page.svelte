@@ -1,7 +1,7 @@
 <script>
   //@ts-nocheck
   import AnimOnVisible from "../../AnimOnVisible.svelte";
-  import { Alert, Carousel } from "flowbite-svelte";
+  import { Alert, Carousel, Button } from "flowbite-svelte";
   import { _ } from "svelte-i18n";
   import { allDevicesImg, slides1, slides2, slides3 } from "../../img";
   import { images } from "../../img";
@@ -15,6 +15,16 @@
   };
   let first = [images[0]];
 </script>
+
+<div class="">
+  <div class="overflow-hidden">
+    <div
+      class="absolute invisible md:visible overflow-hidden -right-0 -top--10 opacity-90 z-1 mr-20"
+    >
+      <img src="https://website-prod.cache.wpscdn.com/img/format_ppt.7fd5ac6.png" alt="" />
+    </div>
+  </div>
+</div>
 
 <div class="innercenter">
   <h1 class="headline">{$_("Slides")}</h1>
